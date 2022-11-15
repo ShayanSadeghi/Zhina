@@ -1,0 +1,21 @@
+
+.image_small {
+  width: 100px;
+  position: relative;
+  margin-top:5px;
+  border-radius: 50px;
+}
+
+.image_medium {
+  width: 150px;
+  position: relative;
+  margin-top: 7px;
+  border-radius: 75px;
+}
+
+.image_large {
+  width: 200px;
+  position: relative;
+  margin-top: 8px;
+  border-radius: 100px;
+}
