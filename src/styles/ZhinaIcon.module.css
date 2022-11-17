@@ -1,6 +1,36 @@
+.container{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.box{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 50px;
+  animation: box_show 4s;
+  animation-iteration-count: infinite;
+}
+
+.box span{
+  position: absolute;
+  top:38%;
+  left:3px;
+  font-size: 15px;
+  animation: text_color 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
 
 .image_small {
   width: 100px;
+  height: 100px;
   position: relative;
   margin-top:5px;
   border-radius: 50px;
@@ -18,4 +48,18 @@
   position: relative;
   margin-top: 8px;
   border-radius: 100px;
+}
+
+
+
+@keyframes box_show {
+  0%{background-color: rgba(210, 0, 0, 0);}
+  50%{background-color: rgb(210, 0, 0);}
+  100% {background-color: rgba(210, 0, 0, 0);}
+}
+
+@keyframes text_color {
+  0%{color:rgba(0, 0, 0, 0);}  
+  50%{color:rgb(240, 240, 240);}  
+  100%{color:rgba(231, 231, 231, 0);}  
 }
