@@ -1,4 +1,4 @@
-import image from "../MahsaAmini.jpg";
+import image from "../images/MahsaAmini.jpg";
 import styles from "../styles/ZhinaIcon.module.css";
 
 export default function ZhinaIcon({ size, withText }) {
